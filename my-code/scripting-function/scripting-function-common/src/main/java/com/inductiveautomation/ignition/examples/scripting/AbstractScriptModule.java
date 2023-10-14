@@ -1,9 +1,9 @@
-package com.inductiveautomation.ignition.examples.scripting;
-
-import com.inductiveautomation.ignition.common.BundleUtil;
-import com.inductiveautomation.ignition.common.script.hints.ScriptArg;
-import com.inductiveautomation.ignition.common.script.hints.ScriptFunction;
-
+// https://files.inductiveautomation.com/sdk/javadoc/ignition81/8.1.32
+package com.inductiveautomation.ignition.examples.scripting; // built-in package for scripting
+import com.inductiveautomation.ignition.common.BundleUtil; // needed for getResource*() calls // 
+import com.inductiveautomation.ignition.common.script.hints.ScriptArg; // script hints for functions
+import com.inductiveautomation.ignition.common.script.hints.ScriptFunction; // script hints for functions
+ 
 public abstract class AbstractScriptModule implements MathBlackBox {
 
     static {
